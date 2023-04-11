@@ -8,4 +8,12 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
 })
 export class FooterComponent {
 
+  gotoTop() {
+    let top = document.getElementById('top');
+    if (top !== null) {
+      top.scrollIntoView();
+      top = null;
+    }
+  }
+  
 }
