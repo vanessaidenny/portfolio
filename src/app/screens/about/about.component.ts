@@ -17,6 +17,6 @@ export class AboutComponent {
   }
 
   gotoUrl() {
-    window.location.href=this.resumeUrl;
+    window.open(this.resumeUrl, 'blank');
   }
 }
