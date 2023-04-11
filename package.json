@@ -39,5 +39,9 @@
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.0.0",
     "typescript": "~4.9.4"
-  }
+  },
+  "description": "This final project is to build a responsive website based on my portfolio prototype designed in the UX Design course.",
+  "main": "index.html",
+  "author": "",
+  "license": "ISC"
 }
