@@ -34,7 +34,7 @@ The process of making the UX research and design all the project brought me the 
 - Bootstrap Icons Library for icons
 - Font Awesome Library for icons
 - Urbanist font family
-- Foundation CSS Framework for grid usage
+- Animate CSS Framework for animations
 - Angular Framework for component implementation and use of router to transition between pages
 - All images were taken by me or it is my own material
 
