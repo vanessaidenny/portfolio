@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="745" height="622" viewBox="0 0 745 622">
+  <defs>
+    <clipPath id="clip-Artboard_5">
+      <rect width="745" height="622"/>
+    </clipPath>
+  </defs>
+  <g id="Artboard_5" data-name="Artboard – 5" clip-path="url(#clip-Artboard_5)">
+    <g id="Mountain_Home" data-name="Mountain Home" transform="translate(1719.351 118)" opacity="0.22">
+      <g id="Polygon_1" data-name="Polygon 1" transform="translate(-1414.351 -104)" fill="none">
+        <path d="M139,0,278,354H0Z" stroke="none"/>
+        <path d="M 139 10.94418334960938 L 5.867919921875 350 L 272.132080078125 350 L 139 10.94418334960938 M 139 0 L 278 354 L 0 354 L 139 0 Z" stroke="none" fill="#707070"/>
+      </g>
+      <g id="Polygon_2" data-name="Polygon 2" transform="matrix(0.995, 0.105, -0.105, 0.995, -1325.701, 108.626)" fill="none">
+        <path d="M181.5,0,363,214H0Z" stroke="none"/>
+        <path d="M 181.5 6.184097290039062 L 8.637451171875 210 L 354.362548828125 210 L 181.5 6.184097290039062 M 181.5 0 L 363 214 L 0 214 L 181.5 0 Z" stroke="none" fill="#707070"/>
+      </g>
+      <g id="Polygon_3" data-name="Polygon 3" transform="matrix(-0.545, -0.839, 0.839, -0.545, -1577.528, 491.758)" fill="none">
+        <path d="M139,0,278,340.789H0Z" stroke="none"/>
+        <path d="M 139 10.59130859375 L 5.951446533203125 336.7892761230469 L 272.0485534667969 336.7892761230469 L 139 10.59130859375 M 139 3.0517578125e-05 L 278 340.7892761230469 L 0 340.7892761230469 L 139 3.0517578125e-05 Z" stroke="none" fill="#707070"/>
+      </g>
+    </g>
+  </g>
+</svg>
