@@ -1,9 +1,10 @@
-@import "node_modules/bootstrap/scss/bootstrap";
-@import "node_modules/bootstrap/scss/functions";
-@import "node_modules/bootstrap/scss/variables";
-@import "node_modules/bootstrap/scss/mixins";
+$primary: #301DDE;
+$secondary: #012B55;
+$tertiary: #FED10B;
+$black: #040409;
+$gray: #707070;
+$dark: #E6E6E6;
+$light: #F7F8F9;
+$white: #FCFCFC;
 
-$theme-colors: (
-  "primary": #0074d9,
-  "danger": #ff4136
-);
+@import "/node_modules/bootstrap/scss/bootstrap";

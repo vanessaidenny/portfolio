@@ -7,10 +7,10 @@ import { HomeComponent } from './screens/home/home.component';
 
 const routes: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full' },
-  { path: 'home', component: HomeComponent, title: 'Home' },
-  { path: 'about', component: AboutComponent, title: 'About Me' },
-  { path: 'portfolio', component: PortfolioComponent, title: 'My Portfolio' },
-  { path: 'contact', component: ContactComponent, title: 'Contact Me' },
+  { path: 'home', component: HomeComponent, title: 'Home - Vanessa Isabela Denny' },
+  { path: 'about', component: AboutComponent, title: 'About Me - Vanessa Isabela Denny' },
+  { path: 'portfolio', component: PortfolioComponent, title: 'My Portfolio - Vanessa Isabela Denny' },
+  { path: 'contact', component: ContactComponent, title: 'Contact Me - Vanessa Isabela Denny' },
 ];
 
 @NgModule({

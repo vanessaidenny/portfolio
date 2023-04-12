@@ -1,25 +1,12 @@
-/* You can add global styles to this file, and also import other style files */
-:root {
-  --color-primary: #301DDE;
-  --color-secondary: #012B55;
-  --color-tertiary: #FED10B;
-  --color-text: #040409;
-  --color-accent: #707070;
-  --color-bg-: #E6E6E6;
-  --color-bg-menu: #F7F8F9;
-  --color-white: #FCFCFC;
-}
-
-
 /* DEFAULT STYLES */
+
+* {
+  font-family: 'Urbanist', sans-serif;
+}
 
 body {
   position: relative;
   min-height: 100vh;
-}
-
-body, p, button, h1, h2, h3, h4 {
-  font-family: 'Urbanist', sans-serif;
 }
 
 
@@ -45,22 +32,9 @@ body, p, button, h1, h2, h3, h4 {
 /* FOOTER */
 
 footer {
-  background-color: var(--color-secondary);
   bottom: 0;
-  color: var(--color-white);
-  text-align: center;
 }
 
 footer p, footer a {
   margin-bottom: 0;
-}
-
-footer a {
-  color: var(--color-white);
-}
-
-
-/* CONTENT */
-section {
-  margin: 10px 0;
 }
