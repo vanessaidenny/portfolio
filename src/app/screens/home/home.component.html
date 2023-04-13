@@ -1,44 +1,67 @@
-<h1 role="heading" class="display-6 text-primary fw-bold">Hi! I'm Vanessa Isabela Denny</h1>
+<h1 role="heading" class="display-6 text-primary fw-bold text-center">Hi! I'm Vanessa Isabela Denny</h1>
 <section>
-  <h2 role="heading" class="text-secondary fw-semibold">What drives my work ethic is building products that are user
-    centered</h2>
-  <p class="fs-4">
-    Graduated in Business Management, Systems Analysis and Development, and currently studying Interactive Media Design
-    at Algonquin College. My professional and academic journey guides me towards creating solutions for user
-    interactions.
-  </p>
-  <button type="button" class="btn btn-light" (click)="changePage('/about')" aria-label="Go to about page">About me
-    ></button>
+  <div class="container text-center">
+    <div class="row">
+      <div class="col">
+        <img src="/assets/img/butterfly-1x.png" srcset="/assets/img/butterfly.svg" alt="Butterfly graphic">
+        <img src="/assets/img/triangle-1x.png" srcset="/assets/img/triangle.svg" alt="Triangle graphic">
+      </div>
+      <div class="col">
+        <h2 role="heading" class="text-secondary fw-semibold">What drives my work ethic is building products that are
+          user
+          centered</h2>
+        <p class="fs-4">
+          Graduated in Business Management, Systems Analysis and Development, and currently studying Interactive Media
+          Design
+          at Algonquin College. My guides me towards creating solutions for user
+          interactions.
+        </p>
+        <button type="button" class="btn btn-light" (click)="changePage('/about')" aria-label="Go to about page">About
+          me
+          ></button>
+      </div>
+    </div>
+  </div>
 </section>
 <section class="bg-white">
-  <div>
-    <h2 role="heading" class="text-secondary fw-semibold">UX UI Design</h2>
-    <p class="fs-4">
-      It involves understanding users' needs and behaviors, creating user personas, mapping user journeys, and designing
-      interactions that are responsive and intuitive.
-      It also includes the visual and interactive elements of a product or service that enable users to interact with
-      it.
-    </p>
+  <div class="container text-center col-8">
+    <div class="row">
+      <div class="col">
+        <h2 role="heading" class="text-secondary fw-semibold">UX UI Design</h2>
+        <p class="fs-4">
+          It involves understanding users' needs and behaviors, creating user personas, mapping user journeys, and
+          designing
+          interactions that are responsive and intuitive.
+          It also includes the visual and interactive elements of a product or service that enable users to interact
+          with
+          it.
+        </p>
+      </div>
+      <div class="col">
+        <h2 role="heading" class="text-secondary fw-semibold">Front End Development</h2>
+        <p class="fs-4">
+          Implementing responsive designs that work across different devices and screen sizes, implementing layout,
+          style,
+          functionality, animations and interactive elements that enhance the user experience, and ensuring that the
+          application is optimized for performance and accessibility.
+        </p>
+      </div>
+    </div>
+    <button type="button" class="btn btn-primary" (click)="changePage('/portfolio')"
+      aria-label="Go to my portfolio page">My portfolio ></button>
   </div>
-  <div>
-    <h2 role="heading" class="text-secondary fw-semibold">Front End Development</h2>
-    <p class="fs-4">
-      Implementing responsive designs that work across different devices and screen sizes, implementing layout, style,
-      functionality, animations and interactive elements that enhance the user experience, and ensuring that the website
-      or application is optimized for performance and accessibility.
-    </p>
-  </div>
-  <button type="button" class="btn btn-primary" (click)="changePage('/portfolio')"
-    aria-label="Go to my portfolio page">My portfolio ></button>
 </section>
 <section>
-  <h2 role="heading" class="text-secondary fw-semibold">Get in Touch</h2>
-  <p class="fs-4">
-    Feel free to write a message with suggestions, questions and invitations.
-    Find me elsewhere to explore my programming and design portfolios, and my
-    professional social media. <br>
-    I look forward to exchanging experiences.
-  </p>
-  <button type="button" class="btn btn-light" (click)="changePage('/contact')" aria-label="Go to contact page">Contact
-    me ></button>
+  <div class="container col-6 text-center">
+    <img src="/assets/img/mountains-1x.png" srcset="/assets/img/mountains.svg" alt="Mountains graphic">
+    <h2 role="heading" class="text-secondary fw-semibold">Get in Touch</h2>
+    <p class="fs-4">
+      Feel free to write a message with suggestions, questions and invitations.
+      Find me elsewhere to explore my programming and design portfolios, and my
+      professional social media. <br>
+      I look forward to exchanging experiences.
+    </p>
+    <button type="button" class="btn btn-light" (click)="changePage('/contact')" aria-label="Go to contact page">Contact
+      me ></button>
+  </div>
 </section>
