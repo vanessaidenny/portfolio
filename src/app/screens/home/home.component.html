@@ -3,8 +3,30 @@
   <div class="container text-center">
     <div class="row">
       <div class="col">
-        <img src="/assets/img/butterfly-1x.png" srcset="/assets/img/butterfly.svg" alt="Butterfly graphic">
-        <img src="/assets/img/triangle-1x.png" srcset="/assets/img/triangle.svg" alt="Triangle graphic">
+        <picture>
+          <source srcset="/assets/img/butterfly_360.png,
+                          /assets/img/butterfly_480.png 2x,
+                          /assets/img/butterfly_720.png 3x" media="(max-width: 360px)">
+          <source srcset="/assets/img/butterfly_480.png,
+                          /assets/img/butterfly_960.png 2x,
+                          /assets/img/butterfly_1440.png 3x" media="(max-width: 480px)">
+          <source srcset="/assets/img/butterfly_720.png,
+                          /assets/img/butterfly_1440.png 2x,
+                          /assets/img/butterfly_2160.png 3x" media="(max-width: 720px)">
+          <img srcset="/assets/img/butterfly.svg" alt="Butterfly graphic">
+        </picture>
+        <picture>
+          <source srcset="/assets/img/triangle_360.png,
+                          /assets/img/triangle_480.png 2x,
+                          /assets/img/triangle_720.png 3x" media="(max-width: 360px)">
+          <source srcset="/assets/img/triangle_480.png,
+                          /assets/img/triangle_960.png 2x,
+                          /assets/img/triangle_1440.png 3x" media="(max-width: 480px)">
+          <source srcset="/assets/img/triangle_580.png,
+                          /assets/img/triangle_7200.png 2x,
+                          /assets/img/triangle_1440.png 3x" media="(max-width: 720px)">
+          <img src="/assets/img/triangle.png" srcset="/assets/img/triangle.svg" alt="Triangle graphic">
+        </picture>
       </div>
       <div class="col">
         <h2 role="heading" class="text-secondary fw-semibold">What drives my work ethic is building products that are
@@ -52,16 +74,31 @@
   </div>
 </section>
 <section>
-  <div class="container col-6 text-center">
-    <img src="/assets/img/mountains-1x.png" srcset="/assets/img/mountains.svg" alt="Mountains graphic">
-    <h2 role="heading" class="text-secondary fw-semibold">Get in Touch</h2>
-    <p class="fs-4">
-      Feel free to write a message with suggestions, questions and invitations.
-      Find me elsewhere to explore my programming and design portfolios, and my
-      professional social media. <br>
-      I look forward to exchanging experiences.
-    </p>
-    <button type="button" class="btn btn-light" (click)="changePage('/contact')" aria-label="Go to contact page">Contact
-      me ></button>
+  <div class="container col-6 d-flex flex-column align-items-center">
+    <div class="position-absolute">
+      <picture>
+        <source srcset="/assets/img/mountains_278.png,
+                        /assets/img/mountains_360.png 2x" media="(max-width: 360px)">
+        <source srcset="/assets/img/mountains_480.png,
+                        /assets/img/mountains_960.png 2x,
+                        /assets/img/mountains_1440.png 3x" media="(max-width: 580px)">
+        <source srcset="/assets/img/mountains_580.png,
+                        /assets/img/mountains_720.png 2x,
+                        /assets/img/mountains_1440.png 3x" media="(max-width: 720px)">
+        <img src="/assets/img/mountains.png" srcset="/assets/img/mountains.svg" alt="Mountains graphic">
+      </picture>
+    </div>
+    <div class="position-relative text-center">
+      <h2 role="heading" class="text-secondary fw-semibold">Get in Touch</h2>
+      <p class="fs-4">
+        Feel free to write a message with suggestions, questions and invitations.
+        Find me elsewhere to explore my programming and design portfolios, and my
+        professional social media. <br>
+        I look forward to exchanging experiences.
+      </p>
+      <button type="button" class="btn btn-light" (click)="changePage('/contact')"
+        aria-label="Go to contact page">Contact
+        me ></button>
+    </div>
   </div>
 </section>

@@ -6,7 +6,7 @@
       }
 
       .cls-2 {
-        clip-path: url(#clip-Artboard_3);
+        clip-path: url(#clip-butterfly);
       }
 
       .cls-3 {
@@ -16,11 +16,11 @@
     <clipPath id="clip-path">
       <rect id="Rectangle_20" data-name="Rectangle 20" class="cls-1" width="608.942" height="392.632"/>
     </clipPath>
-    <clipPath id="clip-Artboard_3">
+    <clipPath id="clip-butterfly">
       <rect width="745" height="546"/>
     </clipPath>
   </defs>
-  <g id="Artboard_3" data-name="Artboard – 3" class="cls-2">
+  <g id="butterfly" data-name="Artboard – 3" class="cls-2">
     <g id="Butterfly_Home" data-name="Butterfly Home" transform="translate(33.866 17.671)">
       <g id="Group_171" data-name="Group 171" transform="matrix(0.978, 0.208, -0.208, 0.978, 81.633, 0)">
         <g id="Group_170" data-name="Group 170" class="cls-3">

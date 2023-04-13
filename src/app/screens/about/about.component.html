@@ -3,7 +3,18 @@
   <div class="container text-center">
     <div class="row">
       <div class="col">
-        <img src="/assets/img/my-picture-1x.png" alt="Vanessa Isabela Denny's picture">
+        <picture>
+          <source srcset="/assets/img/my-picture_360.png,
+                          /assets/img/my-picture_480.png 2x,
+                          /assets/img/my-picture_720.png 3x" media="(max-width: 360px)">
+          <source srcset="/assets/img/my-picture_480.png,
+                          /assets/img/my-picture_960.png 2x,
+                          /assets/img/my-picture_1440.png 3x" media="(max-width: 480px)">
+          <source srcset="/assets/img/my-picture_580.png,
+                          /assets/img/my-picture_720.png,
+                          /assets/img/my-picture_1440.png 2x" media="(max-width: 720px)">
+          <img src="/assets/img/my-picture.png" alt="Vanessa Isabela Denny's picture">
+        </picture>
       </div>
       <div class="col-8">
         <h2 role="heading" class="text-secondary fw-semibold">Background</h2>

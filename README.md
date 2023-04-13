@@ -1,7 +1,7 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/vanessaidenny/portfolio?color=blueviolet&style=plastic)
 ![GitHub contributors](https://img.shields.io/github/contributors/vanessaidenny/portfolio?color=brightgreen&style=plastic)
 
-# 💻 GitHub Pages Repository
+# 💻 Portfolio Repository
 
 This final project is to build a responsive website based on my portfolio prototype designed in the UX Design course.
 In this project, I was able to put in practice my work experience in Angular and Bootstrap knowledge, in addition to create the application from scratch. The most challenge was optimizing images, and I overcame it by going back to in class material to review this part and search for the best practices.

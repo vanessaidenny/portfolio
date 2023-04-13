@@ -1,10 +1,19 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="745" height="622" viewBox="0 0 745 622">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="497" height="415" viewBox="0 0 497 415">
   <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-triangle);
+      }
+
+      .cls-2 {
+        fill: #fed10b;
+      }
+    </style>
     <clipPath id="clip-triangle">
-      <rect width="745" height="622"/>
+      <rect width="497" height="415"/>
     </clipPath>
   </defs>
-  <g id="triangle" data-name="triangle" clip-path="url(#clip-triangle)">
-    <path id="Polygon_4" data-name="Polygon 4" d="M226.5,0,453,470H0Z" transform="translate(599 546) rotate(180)" fill="#fed10b"/>
+  <g id="triangle" data-name="triangle" class="cls-1">
+    <path id="Polygon_4" data-name="Polygon 4" class="cls-2" d="M181.5,0,363,376H0Z" transform="translate(430 396) rotate(180)"/>
   </g>
 </svg>
