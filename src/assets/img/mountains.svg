@@ -1,10 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="745" height="622" viewBox="0 0 745 622">
   <defs>
-    <clipPath id="clip-Artboard_5">
+    <clipPath id="clip-mountains">
       <rect width="745" height="622"/>
     </clipPath>
   </defs>
-  <g id="Artboard_5" data-name="Artboard – 5" clip-path="url(#clip-Artboard_5)">
+  <g id="mountains" data-name="mountains" clip-path="url(#clip-mountains)">
     <g id="Mountain_Home" data-name="Mountain Home" transform="translate(1719.351 118)" opacity="0.22">
       <g id="Polygon_1" data-name="Polygon 1" transform="translate(-1414.351 -104)" fill="none">
         <path d="M139,0,278,354H0Z" stroke="none"/>
