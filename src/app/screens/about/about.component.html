@@ -12,40 +12,32 @@
   <h1 role="heading" class="display-6 text-primary fw-bold text-center py-md-5 py-3">About Me</h1>
 </div>
 <section class="my-md-5 my-3 pb-md-5 pb-3">
-  <div class="container-md text-center">
-    <div class="row">
-      <div class="col">
+  <div class="container-fluid text-center">
+    <div class="row pb-md-4 pb-1">
+      <div class="col-md col-sm">
         <picture>
-          <source srcset="/assets/img/my-picture_360.png,
-                          /assets/img/my-picture_480.png 2x,
-                          /assets/img/my-picture_720.png 3x" media="(max-width: 460px)">
-          <source srcset="/assets/img/my-picture_480.png,
-                          /assets/img/my-picture_960.png 2x,
-                          /assets/img/my-picture_1440.png 3x" media="(max-width: 780px)">
+          <source srcset="/assets/img/my-picture_280.png,
+                          /assets/img/my-picture_360.png 3x" media="(max-width: 480px)">
+          <source srcset="/assets/img/my-picture_280.png,
+                          /assets/img/my-picture_360.png 2x,
+                          /assets/img/my-picture_480.png 3x" media="(max-width: 1200px)">
           <img src="/assets/img/my-picture.png" alt="Vanessa Isabela Denny's picture">
         </picture>
       </div>
-      <div class="col-8">
+      <div class="col-md-7">
         <h2 role="heading" class="text-secondary fw-semibold">Background</h2>
         <p class="fs-4">What drives my work ethic is building products that are user centered.</p>
         <br>
         <p class="fs-4">Graduated in Business Management, Systems Analysis and Development, and currently studying
-          Interactive
-          Media Design
-          at Algonquin College.</p>
+          Interactive Media Design at Algonquin College.</p>
         <br>
         <p class="fs-4">I started working in the technology area assisting internal users in solving IT problems and
-          applying
-          training,
-          where I proactively started writing and updating internal pages with IT guidelines to contribute to the
-          support
-          queue and make users more autonomous.</p>
+          applying training, where I proactively started writing and updating internal pages with IT guidelines to
+          contribute to the support queue and make users more autonomous.</p>
         <br>
         <p class="fs-4">After the extra time studying programming, I was able to work on building applications and
-          mobile
-          features with
-          Angular-Typescript by interpreting design guidelines in Figma and accessibility standards according to WCAG
-          2.0.</p>
+          mobile features with Angular-Typescript by interpreting design guidelines in Figma and accessibility
+          standards according to WCAG 2.0.</p>
         <br>
         <p class="fs-4">My interaction with design experts made me curious to expand my knowledge in research, ideation,
           wireframing and
@@ -54,14 +46,89 @@
     </div>
   </div>
 </section>
-<section class="bg-light">
+<section class="bg-light py-md-5 py-3 pb-md-5 pb-3 text-center">
   <h2 role="heading" class="text-secondary fw-semibold">Education</h2>
-  <button type="button" class="btn btn-primary" (click)="changePage('/portfolio')" aria-label="Go to portfolio page">My
-    portfolio
-    ></button>
+  <div class="divisor-visual d-inline-flex py-md-5 py-3 align-items-end">
+    <div>
+      <div>
+        <p>Associate
+          <br>Business Administration
+        </p>
+        <p>Faculdade de Tecnologia de Indaiatuba
+          <br>SP, Brazil
+        </p>
+      </div>
+      <img src="/assets/img/divisor.png" alt="Vanessa Isabela Denny's picture">
+      <p class="pt-2">2011 - 2015</p>
+    </div>
+    <div>
+      <p>Associate
+        <br>Systems Analysis and Development
+      </p>
+      <p>Faculdade de Tecnologia de Indaiatuba
+        <br>SP, Brazil
+      </p>
+      <img src="/assets/img/divisor.png" alt="Vanessa Isabela Denny's picture">
+      <p class="pt-2">2017 - 2022</p>
+    </div>
+    <div>
+      <p>Diploma
+        <br>Interactive Media Design
+      </p>
+      <p>Algonquin College - School of Media and Design
+        <br>Ottawa, Canada
+      </p>
+      <img src="/assets/img/divisor.png" alt="Vanessa Isabela Denny's picture">
+      <p class="pt-2">2022 - 2024</p>
+    </div>
+  </div>
+  <div>
+    <button type="button" class="btn btn-primary" (click)="changePage('/portfolio')"
+      aria-label="Go to portfolio page">My
+      portfolio
+      ></button>
+  </div>
 </section>
-<section class="bg-white">
+<section class="bg-white py-md-5 py-3 pb-md-5 pb-3 text-center">
   <h2 role="heading" class="text-secondary fw-semibold">Experience</h2>
-  <button type="button" class="btn btn-primary" (click)="gotoUrl()" aria-label="Download resume">Download resume
-    ></button>
+  <div class="divisor-visual d-inline-flex py-md-5 py-3 align-items-end">
+    <div>
+      <p>Mathematics and Calculus Instructor</p>
+      <p>Faculdade de Tecnologia de Indaiatuba
+        <br>SP, Brazil
+      </p>
+      <img src="/assets/img/divisor.png" alt="Vanessa Isabela Denny's picture">
+      <p class="pt-2">04/2018 - 07/2018</p>
+    </div>
+    <div>
+      <p>Information Technology
+        <br>Support Analyst
+      </p>
+      <p>Information Technology
+        <br>Intern
+      </p>
+      <p>Robert Bosch Ltda.
+        <br>SP, Brazil
+      </p>
+      <img src="/assets/img/divisor.png" alt="Vanessa Isabela Denny's picture">
+      <p class="pt-2">07/2018 - 08/2020</p>
+    </div>
+    <div>
+      <p>Application-Frontend
+        <br>Developer
+      </p>
+      <p>Software Development
+        <br>Intern
+      </p>
+      <p>IBM
+        <br>SP, Brazil
+      </p>
+      <img src="/assets/img/divisor.png" alt="Vanessa Isabela Denny's picture">
+      <p class="pt-2">08/2020 - 08/2022</p>
+    </div>
+  </div>
+  <div>
+    <button type="button" class="btn btn-primary" (click)="gotoUrl()" aria-label="Download resume">Download resume
+      ></button>
+  </div>
 </section>
