@@ -10,6 +10,7 @@ import { ContactComponent } from './screens/contact/contact.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { LayoutComponent } from './layout/layout.component';
+import { PortfolioCardComponent } from './components/portfolio-card/portfolio-card.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { LayoutComponent } from './layout/layout.component';
     ContactComponent,
     HeaderComponent,
     FooterComponent,
-    LayoutComponent
+    LayoutComponent,
+    PortfolioCardComponent
   ],
   imports: [
     BrowserModule,
@@ -35,7 +37,8 @@ import { LayoutComponent } from './layout/layout.component';
     ContactComponent,
     HeaderComponent,
     FooterComponent,
-    LayoutComponent
+    LayoutComponent,
+    PortfolioCardComponent
   ]
 })
 export class AppModule { }
