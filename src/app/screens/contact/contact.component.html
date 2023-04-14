@@ -1,13 +1,15 @@
-<h1 role="heading" class="display-6 text-primary fw-bold text-center">Contact Me</h1>
-<section>
+<div class="bg-white py-3 py-md-5">
+  <h1 role="heading" class="display-6 text-primary fw-bold text-center py-md-5 py-3">Contact Me</h1>
+</div>
+<section class="my-md-5 my-3 pb-md-2 pb-1">
   <h2 role="heading" class="text-secondary fw-semibold text-center">Send an Email</h2>
-  <p class="fs-4 text-center">
+  <p class="fs-4 pt-md-3 pt-1 text-center">
     Use the form below to send me an email.
     <br>
     Feel free to write a message with suggestions, questions and invitations.
   </p>
-  <div class="container col-12">
-    <form class="fs-5 bg-white row g-3">
+  <div class="container-md bg-white shadow col-12 mt-md-5 mt-4">
+    <form class="row fs-5 g-3 p-md-3 pb-3">
       <div class="col-md-6">
         <label for="inputName" class="form-label">Full Name*</label>
         <input type="text" class="form-control" id="inputName" placeholder="">
@@ -30,33 +32,35 @@
     </form>
   </div>
 </section>
-<hr>
-<section>
-  <div>
-    <picture>
-      <source srcset="/assets/img/mountains_278.png,
-                      /assets/img/mountains_360.png 2x" media="(max-width: 480px)">
-      <source srcset="/assets/img/mountains_480.png,
-                      /assets/img/mountains_960.png 2x,
-                      /assets/img/mountains_1440.png 3x" media="(max-width: 720px)">
-      <img src="/assets/img/mountains.png" srcset="/assets/img/mountains.svg" alt="Mountains graphic">
-    </picture>
-  </div>
-  <div class="container text-center">
-    <h2 role="heading" class="text-secondary fw-semibold">My Links</h2>
-    <p class="fs-4">
-      Find me elsewhere in the links below to explore my programming and design portfolios, and my professional social
-      media.
-      <br>
-      Stay connected and follow my projects and professional news.
-    </p>
-    <div>
-      <a role="button" class="icon-link" target="blank" href="https://www.github.com/vanessaidenny/"
-        aria-label="Go to Github portfolio"><i class="bi bi-github" aria-hidden="true"></i></a>
-      <a role="button" class="icon-link" target="blank" href="https://www.linkedin.com/in/vanessaidenny"
-        aria-label="Go to Linkedin portfolio"><i class="bi bi-linkedin" aria-hidden="true"></i></a>
-      <a role="button" class="icon-link" target="blank" href="https://www.codepen.io/vanessaidenny"
-        aria-label="Go to Codepen portfolio"><i class="fa fa-brands fa-codepen"></i></a>
+<hr class="col-md-8">
+<section class="py-md-5 py-3 pb-md-5 pb-2">
+  <div class="container-md d-flex justify-content-end">
+    <div class="position-relative text-center">
+      <h2 role="heading" class="text-secondary fw-semibold">My Links</h2>
+      <p class="fs-4 py-md-3 py-1">
+        Find me elsewhere in the links below to explore my programming and design portfolios, and my professional social
+        media.
+        <br>
+        Stay connected and follow my projects and professional news.
+      </p>
+      <div>
+        <a role="button" class="icon-link" target="blank" href="https://www.github.com/vanessaidenny/"
+          aria-label="Go to Github portfolio"><i class="bi bi-github" aria-hidden="true"></i></a>
+        <a role="button" class="icon-link" target="blank" href="https://www.linkedin.com/in/vanessaidenny"
+          aria-label="Go to Linkedin portfolio"><i class="bi bi-linkedin" aria-hidden="true"></i></a>
+        <a role="button" class="icon-link" target="blank" href="https://www.codepen.io/vanessaidenny"
+          aria-label="Go to Codepen portfolio"><i class="fa fa-brands fa-codepen"></i></a>
+      </div>
+    </div>
+    <div class="position-absolute">
+      <picture class="mountains-home">
+        <source srcset="/assets/img/mountains_278.png,
+                        /assets/img/mountains_360.png 2x" media="(max-width: 360px)">
+        <source srcset="/assets/img/mountains_360.png,
+                        /assets/img/mountains_480.png 2x,
+                        /assets/img/mountains_960.png 3x" media="(max-width: 780px)">
+        <img src="/assets/img/mountains_360.png" alt="Mountains graphic">
+      </picture>
     </div>
   </div>
 </section>

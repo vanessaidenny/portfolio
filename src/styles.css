@@ -9,6 +9,11 @@ body {
   min-height: 100vh;
 }
 
+button {
+  border-radius: 30px !important;
+  padding: 5px 25px !important;
+}
+
 
 /* HEADER */
 
