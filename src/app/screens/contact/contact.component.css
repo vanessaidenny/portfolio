@@ -1,3 +1,9 @@
 hr,.links-text {
   margin: 0 auto;
 }
+
+.icon-link {
+  background-color: white;
+  border-radius: 100%;
+  padding: 15px;
+}

@@ -33,6 +33,14 @@ button {
 }
 /* End skip links*/
 
+.icon-link {
+  text-decoration: none;
+  margin-left: 25px;
+}
+.icon-link a:first-child {
+  margin-left: 0;
+}
+
 
 /* FOOTER */
 
