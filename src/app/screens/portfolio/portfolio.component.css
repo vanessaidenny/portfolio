@@ -1,3 +1,4 @@
 ul li {
   list-style: '•';
+  list-style-position: inside;
 }
