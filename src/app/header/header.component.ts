@@ -8,10 +8,19 @@ import { Router } from '@angular/router';
   changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class HeaderComponent {
+  currentChoice: string = 'home';
 
   constructor(private router: Router) {}
 
   changePage(page: string) {
+    this.currentChoice = page;
     this.router.navigate([page]);
+  }
+
+  getActive(page: string) : string{
+    if(this.currentChoice == page)
+         return "active";
+    else
+         return "not";
   }
 }

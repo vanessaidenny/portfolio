@@ -1,0 +1,11 @@
+
+.navbar-nav a:hover {
+  color: #301DDE !important;
+  font-weight: 600 !important;
+}
+
+.active {
+  color: #301DDE !important;
+  font-weight: bold !important;
+  text-decoration: underline !important;
+}

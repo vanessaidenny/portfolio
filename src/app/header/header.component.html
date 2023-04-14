@@ -10,17 +10,22 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a role="button" class="nav-link" (click)="changePage('/home')" aria-label="Go to home page">Home</a>
+          <a role="button" class="nav-link" routerLink="home" routerLinkActive="active"
+            aria-label="Go to home page">Home</a>
         </li>
         <li class="nav-item">
-          <a role="button" class="nav-link" (click)="changePage('/about')" aria-label="Go to about page">About Me</a>
+          <a role="button" class="nav-link" routerLink="about" routerLinkActive="active"
+            aria-label="Go to about page">About
+            Me</a>
         </li>
         <li class="nav-item">
-          <a role="button" class="nav-link" (click)="changePage('/portfolio')" aria-label="Go to my portfolio page">My
+          <a role="button" class="nav-link" routerLink="portfolio" routerLinkActive="active"
+            aria-label="Go to my portfolio page">My
             Portfolio</a>
         </li>
         <li class="nav-item">
-          <a role="button" class="nav-link" (click)="changePage('/contact')" aria-label="Go to contact page">Contact
+          <a role="button" class="nav-link" routerLink="contact" routerLinkActive="active"
+            aria-label="Go to contact page">Contact
             Me</a>
         </li>
       </ul>
