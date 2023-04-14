@@ -2,3 +2,8 @@ ul li {
   list-style: '•';
   list-style-position: inside;
 }
+
+.list-group-item {
+  background-color: unset !important;
+  border: none;
+}
