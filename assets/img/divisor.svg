@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="399" height="32" viewBox="0 0 399 32">
+  <defs>
+    <clipPath id="clip-divisor">
+      <rect width="399" height="32"/>
+    </clipPath>
+  </defs>
+  <g id="divisor" data-name="divisor" class="cls-1">
+    <g id="Group_250" data-name="Group 250" transform="translate(-172.5 -295)">
+      <path id="Path_17" data-name="Path 17" class="cls-2" d="M0,0H400" transform="translate(172.5 311)"/>
+      <path id="Path_17_-_Outline" data-name="Path 17 - Outline" class="cls-2" d="M400,.5H0v-1H400Z" transform="translate(172.5 311)"/>
+      <circle id="Ellipse_7" data-name="Ellipse 7" class="cls-2" cx="16" cy="16" r="16" transform="translate(356 295)"/>
+      <path id="Ellipse_7_-_Outline" data-name="Ellipse 7 - Outline" class="cls-2" d="M16,1A15,15,0,0,0,5.393,26.607,15,15,0,1,0,26.607,5.393,14.9,14.9,0,0,0,16,1m0-1A16,16,0,1,1,0,16,16,16,0,0,1,16,0Z" transform="translate(356 295)"/>
+    </g>
+  </g>
+</svg>
