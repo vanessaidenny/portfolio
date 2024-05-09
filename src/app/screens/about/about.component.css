@@ -1,3 +1,12 @@
 .divisor-visual div {
   max-width: 240px;
 }
+
+.btn-tertiary {
+  background-color: #FED10B !important;
+}
+
+.btn-tertiary:hover {
+  background-color: #301DDE !important;
+  color: #F7F8F9;
+}

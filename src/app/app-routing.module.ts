@@ -6,11 +6,11 @@ import { ContactComponent } from './screens/contact/contact.component';
 import { HomeComponent } from './screens/home/home.component';
 
 const routes: Routes = [
-  { path: '', redirectTo: 'home', pathMatch: 'full' },
-  { path: 'home', component: HomeComponent, title: 'Home - Vanessa Isabela Denny' },
-  { path: 'about', component: AboutComponent, title: 'About Me - Vanessa Isabela Denny' },
-  { path: 'portfolio', component: PortfolioComponent, title: 'My Portfolio - Vanessa Isabela Denny' },
-  { path: 'contact', component: ContactComponent, title: 'Contact Me - Vanessa Isabela Denny' },
+  { path: '', redirectTo: 'greeting', pathMatch: 'full' },
+  { path: 'greeting', component: HomeComponent, title: 'Greeting - Vanessa Isabela Denny' },
+  { path: 'background', component: AboutComponent, title: 'Background - Vanessa Isabela Denny' },
+  { path: 'portfolio', component: PortfolioComponent, title: 'Portfolio - Vanessa Isabela Denny' },
+  { path: 'get-in-touch', component: ContactComponent, title: 'Get In Touch - Vanessa Isabela Denny' },
 ];
 
 @NgModule({
