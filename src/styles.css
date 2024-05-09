@@ -4,6 +4,15 @@
   font-family: 'Urbanist', sans-serif;
 }
 
+.font-zeyada {
+  font-family: "Zeyada", cursive;
+}
+
+h1 {
+  font-family: "Zeyada", cursive;
+  font-size: 4rem !important;
+}
+
 body {
   position: relative;
   min-height: 100vh;
@@ -14,6 +23,11 @@ button {
   padding: 5px 25px !important;
 }
 
+.vertical {
+  border-left: 1px solid;
+  position:absolute;
+  left: 50%;
+}
 
 /* HEADER */
 

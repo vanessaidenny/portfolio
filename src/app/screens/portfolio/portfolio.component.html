@@ -1,79 +1,18 @@
 <div class="bg-white py-3 py-md-5">
   <div class="position-absolute">
-    <picture class="triangle-home">
-      <source srcset="assets/img/butterfly-triangle-sm_278.png,
-                    assets/img/butterfly-triangle-sm_360.png 2x" media="(max-width: 480px)">
-      <source srcset="assets/img/butterfly-triangle-sm_360.png,
-                    assets/img/butterfly-triangle-sm_480.png 2x,
-                    assets/img/butterfly-triangle-sm_720.png 3x" media="(max-width: 780px)">
-      <img src="assets/img/butterfly-triangle-sm_360.png" alt="Triangle graphic">
-    </picture>
+    <img src="assets/img/butterfly-triangle-sm_278.png" alt="Triangle graphic">
   </div>
-  <h1 role="heading" class="animate__animated animate__bounce display-6 text-primary fw-bold text-center py-md-5 py-3">
+  <h1 role="heading" class="animate__animated animate__bounce text-primary text-center py-md-5 py-3">
     My Portfolio</h1>
 </div>
-<section class="my-md-5 my-3">
-  <h2 role="heading" class="text-secondary fw-semibold text-center">Skills</h2>
-  <div class="container-fluid text-center pt-md-3 pt-1">
-    <div class="row">
-      <div class="col">
-        <h3 role="heading" class="text-black fw-semibold">UX UI Design</h3>
-        <ul class="list-inline fs-4 pt-md-3 pt-1">
-          <li>Project Vision and Goals</li>
-          <li>Brand Strategy</li>
-          <li>Competitor Analysis</li>
-          <li>Persona Creation</li>
-          <li>Mood Board & Style Tiles</li>
-          <li>Sketching</li>
-          <li>Accessibility</li>
-          <li>Wireframing & Prototyping</li>
-          <li>User Testing</li>
-        </ul>
-        <p class="fs-4 fst-italic mb-0">Platforms:</p>
-        <ul class="list-inline fs-4">
-          <li>Figma, Adobe XD, Illustrator and inDesign</li>
-        </ul>
-      </div>
-      <div class="col">
-        <h3 role="heading" class="text-black fw-semibold">Front End Development</h3>
-        <ul class="list-inline fs-4 pt-md-3 pt-1">
-          <li>Angular v.12</li>
-          <li>TypeScript</li>
-          <li>NodeJS & NPM</li>
-          <li>HTML5, CSS & SCSS</li>
-          <li>Accessibility</li>
-          <li>Javascript</li>
-          <li>JS Frameworks/Libraries: React, Angular, Vue</li>
-          <li>Wordpress, Drupal, Shopify</li>
-        </ul>
-        <p class="fs-4 fst-italic mb-0">Platforms:</p>
-        <ul class="list-inline fs-4">
-          <li>Visual Studio Code, Git / Github / Gitlab, AWS, Jira, and Figma</li>
-        </ul>
-      </div>
-    </div>
-  </div>
-</section>
-<section class="my-md-5 my-3">
-  <h2 role="heading" class="text-secondary fw-semibold text-center">Projects</h2>
-  <p class="fs-4 text-center pt-md-3 pt-1">Use the links below to filter by specialty:</p>
-  <form class="text-center my-md-5 my-3">
-    <ul class="list-group list-group-horizontal-sm fs-4 d-flex justify-content-around">
-      <li class="list-group-item text-secondary">
-        <label>All projects
-          <input class="ms-5" type="radio" name="projectFilter" id="projectFilter1" value="option1">
-        </label></li>
-      <li class="list-group-item text-secondary">
-        <label>Design projects
-          <input class="ms-5" type="radio" name="projectFilter" id="projectFilter2" value="option2">
-        </label></li>
-      <li class="list-group-item text-secondary">
-        <label>Development projects
-          <input class="ms-5" type="radio" name="projectFilter" id="projectFilter3" value="option3">
-        </label></li>
-    </ul>
-  </form>
-</section>
-<section class="pb-md-5 pb-3">
+
+<section class="container pt-md-5 py-3 pb-3 mt-4 text-center">
+  <h2 role="heading" class="font-zeyada text-primary display-5">Explore my UX UI Design Projects</h2>
+  <span class="badge badge-primary bg-secondary p-2 fw-normal">4 Projects</span>
   <app-portfolio-card></app-portfolio-card>
+</section>
+
+<section class="container pt-md-5 py-3 pb-3 mt-4 text-center">
+  <h2 role="heading" class="font-zeyada text-primary display-5">Explore my FrontEnd Work Pages</h2>
+  <span class="badge badge-primary bg-secondary p-2 fw-normal">3 Pages</span>
 </section>
