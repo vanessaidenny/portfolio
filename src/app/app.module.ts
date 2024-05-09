@@ -7,10 +7,11 @@ import { HomeComponent } from './screens/home/home.component';
 import { AboutComponent } from './screens/about/about.component';
 import { PortfolioComponent } from './screens/portfolio/portfolio.component';
 import { ContactComponent } from './screens/contact/contact.component';
-import { HeaderComponent } from './header/header.component';
-import { FooterComponent } from './footer/footer.component';
+import { HeaderComponent } from './components/header/header.component';
+import { FooterComponent } from './components/footer/footer.component';
 import { LayoutComponent } from './layout/layout.component';
-import { PortfolioCardComponent } from './components/portfolio-card/portfolio-card.component';
+import { ProjectCardComponent } from './components/project-card/project-card.component';
+import { PageCardComponent } from './components/page-card/page-card.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { PortfolioCardComponent } from './components/portfolio-card/portfolio-ca
     HeaderComponent,
     FooterComponent,
     LayoutComponent,
-    PortfolioCardComponent
+    ProjectCardComponent,
+    PageCardComponent
   ],
   imports: [
     BrowserModule,
@@ -38,7 +40,8 @@ import { PortfolioCardComponent } from './components/portfolio-card/portfolio-ca
     HeaderComponent,
     FooterComponent,
     LayoutComponent,
-    PortfolioCardComponent
+    ProjectCardComponent,
+    PageCardComponent
   ]
 })
 export class AppModule { }
