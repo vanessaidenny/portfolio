@@ -12,6 +12,10 @@ import { FooterComponent } from './components/footer/footer.component';
 import { LayoutComponent } from './layout/layout.component';
 import { ProjectCardComponent } from './components/project-card/project-card.component';
 import { PageCardComponent } from './components/page-card/page-card.component';
+import { ProjectEverleafComponent } from './screens/projects/project-everleaf/project-everleaf.component';
+import { ProjectFreecycleComponent } from './screens/projects/project-freecycle/project-freecycle.component';
+import { ProjectKeyToThriveComponent } from './screens/projects/project-key-to-thrive/project-key-to-thrive.component';
+import { ProjectAstrogazeComponent } from './screens/projects/project-astrogaze/project-astrogaze.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +28,11 @@ import { PageCardComponent } from './components/page-card/page-card.component';
     FooterComponent,
     LayoutComponent,
     ProjectCardComponent,
-    PageCardComponent
+    PageCardComponent,
+    ProjectEverleafComponent,
+    ProjectFreecycleComponent,
+    ProjectKeyToThriveComponent,
+    ProjectAstrogazeComponent
   ],
   imports: [
     BrowserModule,
@@ -41,7 +49,11 @@ import { PageCardComponent } from './components/page-card/page-card.component';
     FooterComponent,
     LayoutComponent,
     ProjectCardComponent,
-    PageCardComponent
+    PageCardComponent,
+    ProjectEverleafComponent,
+    ProjectFreecycleComponent,
+    ProjectKeyToThriveComponent,
+    ProjectAstrogazeComponent
   ]
 })
 export class AppModule { }
