@@ -1,13 +1,3 @@
-hr,.links-text {
-  margin: 0 auto;
-}
-
-.icon-link {
-  background-color: #F7F8F9;
-  border-radius: 100%;
-  padding: 15px;
-}
-
 .btn-tertiary {
   background-color: #FED10B !important;
 }
@@ -15,4 +5,9 @@ hr,.links-text {
 .btn-tertiary:hover {
   background-color: #301DDE !important;
   color: #F7F8F9;
+}
+
+.connect-links a:hover span,
+.connect-links a:hover i {
+  background-color: #E6E6E6 !important;
 }
