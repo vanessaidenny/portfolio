@@ -10,27 +10,36 @@
   <section class="container col-lg-8 my-5">
     <h2 role="heading" class="text-secondary fw-semibold text-center">Send an Email</h2>
     <p class="fs-5 pt-md-3 pt-1 text-center">
-      Feel free to write a message with suggestions, questions and invitations.
+      Feel free to write a message with suggestions, questions, and invitations.
       <br>
       Use the form below to send me an email or directly to <a href="mailto:vanessaidenny@gmail.com" class="text-primary fw-semibold">vanessaidenny@gmail.com</a>.
     </p>
-    <div class="container col-lg-8 mt-md-5 mt-4">
-      <form class="row g-3 p-md-3 pb-3">
+    
+    <div *ngIf="showSuccessAlert" class="alert alert-success" role="alert">
+      Email sent successfully!
+    </div>
+    
+    <div *ngIf="showErrorAlert" class="alert alert-danger" role="alert">
+      Error sending email. Please try again later.
+    </div>
+
+    <div *ngIf="!showSuccessAlert && !showErrorAlert" class="container col-lg-8 mt-md-5 mt-4">
+      <form class="row g-3 p-md-3 pb-3" [formGroup]="form" action="javascript:void(0)" (submit)="submitForm()">
         <div class="col-md-6">
           <label for="inputName" class="form-label">Full Name*</label>
-          <input type="text" class="form-control shadow-sm" id="inputName" placeholder="Insert your full name">
+          <input type="text" class="form-control shadow-sm" id="inputName" placeholder="Insert your full name" autocomplete="name" formControlName="from_name">
         </div>
         <div class="col-md-6">
           <label for="inputEmail" class="form-label">Email*</label>
-          <input type="email" class="form-control shadow-sm" id="inputEmail" placeholder="Insert your email address">
+          <input type="email" class="form-control shadow-sm" id="inputEmail" placeholder="Insert your email address" formControlName="from_email">
         </div>
         <div class="col-12">
           <label for="inputSubject" class="form-label">Subject*</label>
-          <input type="text" class="form-control shadow-sm" id="inputSubject" placeholder="Insert the email subject">
+          <input type="text" class="form-control shadow-sm" id="inputSubject" placeholder="Insert the email subject" formControlName="subject">
         </div>
         <div class="col-12">
           <label for="inputMessage" class="form-label">Message*</label>
-          <textarea type="text" class="form-control shadow-sm" id="inputMessage" placeholder="Insert your message"></textarea>
+          <textarea type="text" class="form-control shadow-sm" id="inputMessage" placeholder="Insert your message" formControlName="message"></textarea>
         </div>
         <div class="col text-center">
           <button type="submit" class="btn btn-tertiary shadow-sm" aria-label="Send email">Send ></button>
@@ -50,10 +59,6 @@
           <a role="button" class="text-decoration-none mb-4" target="blank" href="https://www.linkedin.com/in/vanessaidenny" aria-label="Go to Vanessa's Linkedin profile">
             <i class="fa fa-brands fa-linkedin fs-2 bg-light rounded-5 p-3" aria-hidden="true"></i>
             <span class="text-black bg-light rounded-3 p-2">linkedin.com/in/vanessaidenny</span>
-          </a>
-          <a role="button" class="text-decoration-none mb-4" target="blank" href="https://vanessaidenny.netlify.app" aria-label="Go to Vanessa's portfolio website">
-            <i class="fa fa-solid fa-globe fs-2 bg-light rounded-5 p-3" aria-hidden="true"></i>
-            <span class="text-black bg-light rounded-3 p-2">vanessaidenny.netlify.app</span>
           </a>
           <a role="button" class="text-decoration-none mb-4" target="blank" href="https://www.github.com/vanessaidenny/" aria-label="Go to Vanessa's Github portfolio">
             <i class="fa fa-brands fa-github fs-2 bg-light rounded-5 p-3" aria-hidden="true"></i>

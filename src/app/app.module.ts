@@ -15,6 +15,7 @@ import { PageCardComponent } from './components/page-card/page-card.component';
 import { ProjectEverleafComponent } from './screens/projects/project-everleaf/project-everleaf.component';
 import { ProjectFreecycleComponent } from './screens/projects/project-freecycle/project-freecycle.component';
 import { ProjectKeyToThriveComponent } from './screens/projects/project-key-to-thrive/project-key-to-thrive.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { ProjectKeyToThriveComponent } from './screens/projects/project-key-to-t
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ReactiveFormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
