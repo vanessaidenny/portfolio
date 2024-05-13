@@ -10,8 +10,12 @@
             <div class="container bg-white rounded p-4 border">
                 <img class="img-fluid" src="assets/img/projects/key-to-thrive/showcase.png" alt="Key to Thrive project showcase" />
             </div>
-            <div class="position-absolute">
-                <img src="assets/graphics/butterfly-triangle-sm_278.png" alt="Triangle graphic">
+            <div class="position-absolute translate-middle-y end-0">
+              <picture>
+                <source srcset="assets/graphics/butterfly-triangle_0.5.png" media="(max-width: 780px)">
+                <source srcset="assets/graphics/butterfly-triangle_0.75.png" media="(max-width: 980px)">
+                <img src="assets/graphics/butterfly-triangle_0.75.png" alt="Butterfly Triangle graphic">
+              </picture>
             </div>
         </div>
     </div>
@@ -138,7 +142,7 @@
                         including the pillars, time management and organizational tools, and dedicated support services, students can enhance their academic performance effectively.
                     </p>
                     <img class="col-lg img-fluid" src="assets/img/projects/key-to-thrive/student-access.png" alt="UI Components in Figma picture" />
-                    <button type="button" class="btn btn-tertiary mt-3 shadow-sm"
+                    <button type="button" class="btn btn-tertiary mt-3 shadow-sm" (click)="gotoUrl('studentAccess')"
                     aria-label="Go to my interactive prototype on Figma">Interactive Prototype on Figma ></button>
                 </div>
                 <div class="col-lg mx-auto align-items-center">
@@ -148,7 +152,7 @@
                         have the ability to oversee various aspects of assessments, strategies, and student performance.
                     </p>
                     <img class="col-lg-9 img-fluid" src="assets/img/projects/key-to-thrive/adm-access.png" alt="UI Components in Figma picture" />
-                    <button type="button" class="btn btn-tertiary mt-3 shadow-sm"
+                    <button type="button" class="btn btn-tertiary mt-3 shadow-sm" (click)="gotoUrl('admAccess')"
                     aria-label="Go to my interactive prototype on Figma">Interactive Prototype on Figma ></button>
                 </div>
             </div>
@@ -185,7 +189,7 @@
                         Out of 80 innovative projects across various Algonquin College programs, it is an honor to stand alongside other impressive initiatives, 
                         including an electrical engineering project in first place and a video production solution in third.
                     </p>
-                    <button type="button" class="btn btn-tertiary mt-3 shadow-sm" 
+                    <button type="button" class="btn btn-tertiary mt-3 shadow-sm" (click)="gotoUrl('linkedinPost')"
                     aria-label="Go to my LinkedIn Post">Read LinkedIn Post ></button>
                 </div>
                 <div class="col-lg-6">
