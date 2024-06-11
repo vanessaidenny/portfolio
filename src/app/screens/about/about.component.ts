@@ -8,7 +8,7 @@ import { Router } from '@angular/router';
   changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class AboutComponent {
-  resumeUrl = 'https://1drv.ms/b/s!AiyDjPpdmGKKidcm-vexUgb2rMRN5g?e=x6jbgs';
+  resumeUrl = 'https://1drv.ms/b/s!AiyDjPpdmGKKidc6nsAjyQdRrMZiNw?e=bx4ZOj';
 
   constructor(private router: Router) {}
 
