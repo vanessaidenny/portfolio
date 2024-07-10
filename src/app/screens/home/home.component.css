@@ -6,3 +6,11 @@
   background-color: #301DDE !important;
   color: #F7F8F9;
 }
+
+.animate__animated.animate__fadeIn {
+  --animate-duration: 2s;
+}
+
+.animate__animated.animate__bounce{
+  --animate-duration: 1s;
+}

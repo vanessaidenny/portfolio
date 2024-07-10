@@ -10,13 +10,13 @@ import { ProjectKeyToThriveComponent } from './screens/projects/project-key-to-t
 
 const routes: Routes = [
   { path: '', redirectTo: 'greeting', pathMatch: 'full' },
-  { path: 'greeting', component: HomeComponent, title: 'Greeting - Vanessa Isabela Denny' },
-  { path: 'background', component: AboutComponent, title: 'Background - Vanessa Isabela Denny' },
-  { path: 'portfolio', component: PortfolioComponent, title: 'Portfolio - Vanessa Isabela Denny' },
-  { path: 'get-in-touch', component: ContactComponent, title: 'Get In Touch - Vanessa Isabela Denny' },
-  { path: 'portfolio/project-everleaf', component: ProjectEverleafComponent, title: 'Project - EverLeaf - Vanessa Isabela Denny' },
-  { path: 'portfolio/project-freecycle', component: ProjectFreecycleComponent, title: 'Project - Freecycle.org - Vanessa Isabela Denny' },
-  { path: 'portfolio/project-key-to-thrive', component: ProjectKeyToThriveComponent, title: 'Project - Key to Thrive - Vanessa Isabela Denny' },
+  { path: 'greeting', component: HomeComponent, title: 'Greeting | Vanessa Isabela Denny' },
+  { path: 'resume', component: AboutComponent, title: 'Resume | Vanessa Isabela Denny' },
+  { path: 'portfolio', component: PortfolioComponent, title: 'Portfolio | Vanessa Isabela Denny' },
+  { path: 'get-in-touch', component: ContactComponent, title: 'Get In Touch | Vanessa Isabela Denny' },
+  { path: 'portfolio/project-everleaf', component: ProjectEverleafComponent, title: 'Project | EverLeaf | Vanessa Isabela Denny' },
+  { path: 'portfolio/project-freecycle', component: ProjectFreecycleComponent, title: 'Project | Freecycle.org | Vanessa Isabela Denny' },
+  { path: 'portfolio/project-key-to-thrive', component: ProjectKeyToThriveComponent, title: 'Project | Key to Thrive | Vanessa Isabela Denny' },
 ];
 
 @NgModule({
